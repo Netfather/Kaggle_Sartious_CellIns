@@ -1,1 +1,11 @@
-Test
+## 数据集主要分为两个，一个是本次比赛用到的 600+张实例分割的细胞 另一个是官方论文中使用的 4000+张livecell数据集
+
+# 1. 关于 本次比赛使用的 Sartious数据集
+# 一般实例分割的题目都需要将 标记转为某种编码格式，这里我使用的是 coco的json格式用于存储
+# 具体转换方法 请查看如下链接 https://www.kaggle.com/shinewine/efficient-coco-dataset-generator
+
+# 2. 关于 本次比赛使用的 livecell数据集
+# 由于官方给的编码格式有一定问题，而且这个数据集使用的是 Polygan的编码
+# 因此 额外做了一些转换 请查看如下的 notebook https://www.kaggle.com/markunys/sartorius-transfer-learning-train-with-livecell
+
+
